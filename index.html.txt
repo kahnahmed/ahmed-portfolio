@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ahmed Khan | Portfolio</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fb;
+      color: #111827;
+    }
+
+    /* HERO */
+    header {
+      background: linear-gradient(135deg, #0f172a, #1e3a8a);
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 44px;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      margin-top: 12px;
+      font-size: 16px;
+      color: #cbd5e1;
+    }
+
+    .buttons {
+      margin-top: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 8px;
+      padding: 10px 18px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .btn-primary {
+      background: white;
+      color: #0f172a;
+    }
+
+    .btn-outline {
+      border: 1px solid white;
+      color: white;
+    }
+
+    /* CONTENT */
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 15px;
+    }
+
+    .card {
+      background: white;
+      padding: 22px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+    }
+
+    h2 {
+      margin-top: 0;
+      border-left: 4px solid #1e3a8a;
+      padding-left: 10px;
+    }
+
+    ul {
+      line-height: 1.8;
+    }
+
+    /* CONTACT */
+    .contact {
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      font-size: 13px;
+      color: #6b7280;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Ahmed Khan</h1>
+  <p>Accounts Receivables & Collections | Finance Operations Professional</p>
+
+  <div class="buttons">
+    <a class="btn btn-primary" href="mailto:kahn.ahmed11@gmail.com">Contact Me</a>
+    <a class="btn btn-outline" href="#">Download CV</a>
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>About Me</h2>
+    <p>
+      Finance Operations professional specializing in Accounts Receivables and Collections.
+      Experienced in managing invoices, tracking payments, and ensuring smooth cash flow processes.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Skills</h2>
+    <ul>
+      <li>Accounts Receivables & Collections</li>
+      <li>Invoice Processing & Reconciliation</li>
+      <li>Customer Payment Tracking</li>
+      <li>MS Excel & Reporting</li>
+      <li>Finance Operations Support</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Key Strengths</h2>
+    <ul>
+      <li>Reducing overdue payments</li>
+      <li>Maintaining accurate financial records</li>
+      <li>Strong follow-up and communication</li>
+    </ul>
+  </div>
+
+  <div class="card contact">
+    <h2>Contact</h2>
+    <p>Email: kahn.ahmed11@gmail.com</p>
+    <p>Available for finance operations roles & opportunities.</p>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 Ahmed Khan. All rights reserved.
+</footer>
+
+</body>
+</html>
